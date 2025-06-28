@@ -1,0 +1,33 @@
+# Node.js
+node_modules/
+**/node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# dotenv environment variables
+.env
+.env.local
+.env.*.local
+
+# VSCode settings
+.vscode/
+
+# MongoDB Docker volume (trwałe dane bazy)
+mongo_data/
+
+# Logs
+logs/
+*.log
+log.txt
+
+# Jest test coverage
+coverage/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Docker
+*.pid
