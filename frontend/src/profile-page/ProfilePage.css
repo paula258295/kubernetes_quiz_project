@@ -1,0 +1,103 @@
+.profile-page {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  padding: 32px 24px;
+  margin: 32px auto;
+  max-width: 600px;
+}
+
+.profile-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: #23272f;
+  text-align: center;
+}
+
+.profile-info p {
+  font-size: 1.08em;
+  margin: 10px 0;
+}
+
+.profile-form {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0 18px 0;
+  flex-wrap: wrap;
+}
+
+.profile-input {
+  padding: 8px 12px;
+  border-radius: 4px;
+  border: 1px solid #cbd5e1;
+  font-size: 1em;
+  margin-right: 8px;
+}
+
+.profile-btn {
+  background: #23272f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 7px 18px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.profile-btn:disabled {
+  background: #cbd5e1;
+  color: #888;
+  cursor: not-allowed;
+}
+
+.profile-btn:not(:disabled):hover {
+  background: #ffd600;
+  color: #23272f;
+}
+
+.profile-btn-cancel {
+  background: #ff5252;
+  color: #fff;
+}
+
+.profile-btn-cancel:hover {
+  background: #b71c1c;
+  color: #fff;
+}
+
+.profile-msg {
+  margin-top: 12px;
+  font-size: 1.05em;
+  min-height: 1.5em;
+  text-align: center;
+}
+
+.profile-badges {
+  margin-top: 2em;
+}
+
+.profile-badges h3 {
+  margin-bottom: 0.5em;
+}
+
+.profile-badges ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.profile-badges li {
+  background: #f7fafc;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 1.1em;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}

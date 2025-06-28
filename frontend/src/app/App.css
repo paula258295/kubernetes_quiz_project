@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  background: #f7fafc;
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.main-nav {
+  background: #23272f;
+  color: #fff;
+  padding: 16px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+@media (min-width: 768px) {
+  .main-nav {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.nav-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  align-items: center;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 4px 8px;
+  border-radius: 4px;
+  transition: background 0.15s, color 0.15s;
+}
+
+.nav-link:hover {
+  background: #374151;
+  color: #ffd600;
+}
+
+.nav-user {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  flex-wrap: wrap;
+}
+
+.user-stats {
+  color: #7fffa7;
+  font-size: 0.98em;
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.nav-profile {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.main-content {
+  max-width: 900px;
+  margin: 32px auto 0 auto;
+  padding: 24px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  min-height: 60vh;
+}
+
+.welcome {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 60px;
+  color: #23272f;
+}

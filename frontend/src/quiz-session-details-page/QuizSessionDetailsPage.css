@@ -1,0 +1,88 @@
+.session-details-page {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.06);
+  padding: 32px 24px;
+  margin: 32px auto;
+  max-width: 700px;
+}
+
+.session-details-title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: #23272f;
+  text-align: center;
+}
+
+.session-details-info {
+  font-size: 1.08em;
+  margin-bottom: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.session-details-hr {
+  margin: 18px 0;
+  border: none;
+  border-top: 1px solid #e0e0e0;
+}
+
+.session-details-answers-title {
+  font-size: 1.2em;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.session-details-answers-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px 0;
+}
+
+.session-details-answer-li {
+  background: #f7fafc;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(0,0,0,0.04);
+  margin-bottom: 18px;
+  padding: 14px 16px;
+  transition: box-shadow 0.15s;
+  position: relative;
+}
+
+.session-details-correct {
+  color: #2ecc40;
+  font-weight: 600;
+}
+
+.session-details-wrong {
+  color: #ff5252;
+  font-weight: 600;
+}
+
+.session-details-btn {
+  background: #23272f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  padding: 8px 22px;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  margin-top: 12px;
+}
+
+.session-details-btn:hover {
+  background: #ffd600;
+  color: #23272f;
+}
+
+.session-details-loading,
+.session-details-error {
+  text-align: center;
+  font-size: 1.2em;
+  color: #b71c1c;
+  margin: 40px 0;
+}
